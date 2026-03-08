@@ -76,4 +76,5 @@ console.log (`прив!${town.hp}`)
 })
 const numbers = [10,20,30]
 const htmlList = numbers.map(town => `<li>цена: ${town} </li>`);
+
 console.log (htmlList)
