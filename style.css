@@ -1,32 +1,44 @@
-.night {
+.verh {
+    height: 25px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 0px;
+}
+.verh_name {
+    font-size: 18px;
+    position: absolute;
+    left: 640px;
+}
+.container {
+    padding: 2px;
+    display: flex;
+    gap: 4px;
+    top: 2px;
+    position:relative;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.stav {
+    position: absolute;
     width: 100px;
-    height: 100px;
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    border-radius: 20px;
-    background-color: #8a7dc9;
-    font-size: 20px;
-    border: 4px solid black;
-}
-.night:hover {
-    transform: scale(0.97);
-}
-.night:active {
-    transform: scale(0.94);
-}
-.pos {
-    color: #ffffff;
-}
-.player {
-    width: 20px;
     height: 20px;
-    border: 2px solid #000;
-    border-radius: 20px;
-    background-color: rgb(88, 214, 49);
-    position: absolute;
-    
+    background-color: rgb(133, 100, 93);
 }
-.body.s{
-    rotate: 180
+.it {
+    width: 200px;
+    height: 50px;
+    background-color: #9b6e3b;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.buttons {
+    width: 80px;
+    height: 20px;
+    background-color: rgb(210, 53, 21);
 }
